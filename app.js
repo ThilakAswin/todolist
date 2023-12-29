@@ -13,11 +13,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
 
-<<<<<<< HEAD
 mongoose.connect("mongodb+srv://Thilak:toodamnhot@thilak.5d7jqob.mongodb.net/");
-=======
-mongoose.connect("mongodb://localhost:27017/todolist");
->>>>>>> 87f8d9dc4367be8066138cdca7fc4e3d8484601a
 
 const itemsSchema = mongoose.Schema({
     name:String
